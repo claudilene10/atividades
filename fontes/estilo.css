@@ -1,0 +1,13 @@
+body{
+    background-color:#cdb4db;
+}
+.conteiner-box{
+    background-color:#ffc8dd;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto; /*centralizando div*/
+}
+.texto{
+    color: #4b9adf;
+    font-size: 20px;
+}
