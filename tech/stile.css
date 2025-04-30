@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(20, 1, 15);
+}
+.container {
+   
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+  
+    .img{
+        float: left;
+        margin-right: 20px;
+        width: 800px;
+    }
+
+
+.texto{
+    font-size: 16px;
+    line-height: 1,5;
+    margin-left: 20px;
+    color: rgb(243, 233, 239);
+    float: center;
+}
+h1{
+    text-align: center;
+    color: rgb(236, 19, 171);
+}
+.icon-container {
+    display: flex;
+    justify-content: center;  /* Centraliza o ícone horizontalmente */
+    margin-bottom: 20px;  /* Espaçamento entre o ícone e o texto */
+}
