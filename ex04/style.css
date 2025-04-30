@@ -1,0 +1,43 @@
+body{
+    background-color: #462255
+}
+.container {
+    background-color: #aa4465;
+    display: flex;
+    justify-content: space-around; /* ou 'space-between' ou 'center' */
+    flex-wrap: wrap; /* permite quebrar linha em telas pequenas */
+    gap: 20px;
+    padding: 50px;
+    
+}
+
+.container > div {
+    width: 30%; /* controla o tamanho de cada box */
+    background-color: #aa4465;
+    border: 5px;
+    border: 2px solid white; 
+    border-color: azure;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #01060f
+}
+.container img,
+.container h1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h3 {
+    color: #3aaaeb
+}
+h1{
+    justify-content:center;
+    text-align: center;
+}
+.container > h1 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
